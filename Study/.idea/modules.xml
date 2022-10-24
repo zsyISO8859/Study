@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-All/01-All.iml" filepath="$PROJECT_DIR$/01-All/01-All.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-String/02-String.iml" filepath="$PROJECT_DIR$/02-String/02-String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-反射/03-反射.iml" filepath="$PROJECT_DIR$/03-反射/03-反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-IO/04-IO.iml" filepath="$PROJECT_DIR$/04-IO/04-IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Exception/05-Exception.iml" filepath="$PROJECT_DIR$/05-Exception/05-Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Collection/06-Collection.iml" filepath="$PROJECT_DIR$/06-Collection/06-Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-注解/07-注解.iml" filepath="$PROJECT_DIR$/07-注解/07-注解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-FaceObject/08-FaceObject.iml" filepath="$PROJECT_DIR$/08-FaceObject/08-FaceObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-JVM/09-JVM.iml" filepath="$PROJECT_DIR$/09-JVM/09-JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+    </modules>
+  </component>
+</project>

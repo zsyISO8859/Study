@@ -56,6 +56,8 @@ package day3;
  *              3. 读取类文件的字节码
  *              4. 调用父类的defineClass方法来加载类
  *              5.使用者调用该类加载器的loadClass方法
+ *           例子：
+ *              day3.custom.CustomClassLoader
  *
  *
  * 6.运行期优化
@@ -65,23 +67,5 @@ public class Test5 {
         Class<Test5> test5Class = Test5.class;
         System.out.println(test5Class.getClassLoader().getParent());
 
-    }
-}
-
-interface human{
-    void save();
-}
-
-class man implements human {
-    @Override
-    public void save() {
-        System.out.println("man save...");
-    }
-}
-
-class woman implements human{
-    @Override
-    public void save() {
-        System.out.println("woman save...");
     }
 }

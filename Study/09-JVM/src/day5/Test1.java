@@ -17,6 +17,15 @@ import org.junit.Test;
  *      volatile关键字保证可见性但是不保证原子性
  *      适用于一个线程写多个线程读的场景
  *      synchronized既可以保证可见性也可以保证原子性，但是性能低
+ *      volatile关键字也可以保证有序性(多线程情况下JIT在编译时候会进行一些优化即指令重排[调整指令的先后顺序]造成指令无序)
+ *
+ *    举例指令重排情况：
+ *      单例懒汉式的双重检查锁的第二重检查中 INSTANCE = new Singleton，而这行代码在多线程的情况下就可能导致指令重排，
+ *      new Singleton的字节码指令为：1new 2dup 3invokespecial 4putstatic ，3和4就可能发生指令重排，比如第一个线程在将
+ *      引用地址赋值给静态变量INSTANCE后另一个线程抢占资源了，这时候还没有执行3的init构造方法，此时如果init中有许多业务
+ *      逻辑，这时候第二个线程拿到的对象可能就会有问题。所以INSTANCE使用volatile修饰就可以保证有序性。
+ *
+ *
  */
 public class Test1 {
     static boolean run = true;

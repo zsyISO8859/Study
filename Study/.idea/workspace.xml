@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-JVM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,23 +51,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEAPro\Study\10-DesignMode\src\proxy3\cglib\lib" />
       <recent name="C:\IDEAPro\Study\09-JVM" />
       <recent name="C:\IDEAPro\Study\09-JVM\src" />
       <recent name="C:\IDEAPro\Study\08-FaceObject" />
       <recent name="C:\IDEAPro\Study\08-FaceObject\src" />
-      <recent name="C:\IDEAPro\Study\07-注解" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="template4" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client_enter (1)">
+  <component name="RunManager" selected="Application.Client_enter (3)">
     <configuration name="Client_enter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy3.dynamic.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="proxy3.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client_enter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy3.cglib.Client_enter" />
+      <module name="10-DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy3.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,38 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client_enter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template4.Client_enter" />
+      <module name="10-DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton1.Test1" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton1.Test3" />
-      <module name="10-DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton1.Test4" />
-      <module name="10-DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton1.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client_enter (3)" />
+        <item itemvalue="Application.Client_enter (2)" />
         <item itemvalue="Application.Client_enter (1)" />
         <item itemvalue="Application.Client_enter" />
         <item itemvalue="Application.Test1 (1)" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,7 @@
       <workItem from="1666753147001" duration="15930000" />
       <workItem from="1666838639908" duration="50000" />
       <workItem from="1666839820748" duration="1691000" />
-      <workItem from="1666860557523" duration="5263000" />
+      <workItem from="1666860557523" duration="12974000" />
     </task>
     <servers />
   </component>

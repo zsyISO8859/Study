@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cglib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib/cglib-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

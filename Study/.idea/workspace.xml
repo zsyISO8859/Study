@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +61,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
-    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Test1" />
+  <component name="RunManager" selected="Application.Client_enter (1)">
+    <configuration name="Client_enter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy3.dynamic.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="proxy3.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Test2" />
+    <configuration name="Client_enter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy3.staticproxy.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="proxy3.staticproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton1.Test1" />
+      <module name="10-DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Test3" />
+      <option name="MAIN_CLASS_NAME" value="singleton1.Test3" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Test4" />
+      <option name="MAIN_CLASS_NAME" value="singleton1.Test4" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,42 +127,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GC_1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day2" />
-      <option name="MAIN_CLASS_NAME" value="day2.GC_1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client_enter (1)" />
+        <item itemvalue="Application.Client_enter" />
+        <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1 (1)" />
-        <item itemvalue="JUnit.GC_1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +159,10 @@
       <workItem from="1666580929696" duration="12824000" />
       <workItem from="1666606688974" duration="22459000" />
       <workItem from="1666752750331" duration="360000" />
-      <workItem from="1666753147001" duration="8963000" />
+      <workItem from="1666753147001" duration="15930000" />
+      <workItem from="1666838639908" duration="50000" />
+      <workItem from="1666839820748" duration="1691000" />
+      <workItem from="1666860557523" duration="5263000" />
     </task>
     <servers />
   </component>

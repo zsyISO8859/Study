@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-DesignMode/src/proxy3/cglib/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMVC1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,27 +51,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEAPro\Study\10-DesignMode\src\adapter\object" />
       <recent name="C:\IDEAPro\Study\10-DesignMode\src\proxy3\cglib\lib" />
       <recent name="C:\IDEAPro\Study\09-JVM" />
       <recent name="C:\IDEAPro\Study\09-JVM\src" />
       <recent name="C:\IDEAPro\Study\08-FaceObject" />
-      <recent name="C:\IDEAPro\Study\08-FaceObject\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adapter.interfaceadapter" />
       <recent name="responsibilitychain6.springweb" />
       <recent name="responsibilitychain6" />
       <recent name="observer" />
       <recent name="template4" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client_enter (4)">
+  <component name="RunManager" selected="Application.Client_enter (5)">
     <configuration name="Client_enter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy3.dynamic.Client_enter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.objectadapter.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy3.dynamic.*" />
+          <option name="PATTERN" value="adapter.objectadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,24 +80,11 @@
       </method>
     </configuration>
     <configuration name="Client_enter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy3.cglib.Client_enter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.interfaceadapter.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy3.cglib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client_enter (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="responsibilitychain6.Client_enter" />
-      <module name="10-DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="responsibilitychain6.*" />
+          <option name="PATTERN" value="adapter.interfaceadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Client_enter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer5.Client_enter" />
+      <option name="MAIN_CLASS_NAME" value="adapter.classadapter.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer5.*" />
+          <option name="PATTERN" value="adapter.classadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton1.Test1" />
+    <configuration name="DispatchServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.springmvc.DispatchServlet" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="adapter.springmvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client_enter (4)" />
-        <item itemvalue="Application.Client_enter (3)" />
-        <item itemvalue="Application.Client_enter (3)" />
+        <item itemvalue="Application.Client_enter (5)" />
+        <item itemvalue="Application.DispatchServlet" />
         <item itemvalue="Application.Client_enter (2)" />
         <item itemvalue="Application.Client_enter (1)" />
+        <item itemvalue="Application.Client_enter (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +181,7 @@
       <workItem from="1666839820748" duration="1691000" />
       <workItem from="1666860557523" duration="13717000" />
       <workItem from="1667185151410" duration="18205000" />
+      <workItem from="1667266542073" duration="19439000" />
     </task>
     <servers />
   </component>

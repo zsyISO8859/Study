@@ -58,11 +58,14 @@
       <recent name="C:\IDEAPro\Study\08-FaceObject\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="responsibilitychain6.springweb" />
+      <recent name="responsibilitychain6" />
+      <recent name="observer" />
       <recent name="template4" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client_enter (3)">
+  <component name="RunManager" selected="Application.Client_enter (4)">
     <configuration name="Client_enter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy3.dynamic.Client_enter" />
       <module name="10-DesignMode" />
@@ -89,12 +92,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client_enter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy3.staticproxy.Client_enter" />
+    <configuration name="Client_enter (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="responsibilitychain6.Client_enter" />
       <module name="10-DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy3.staticproxy.*" />
+          <option name="PATTERN" value="responsibilitychain6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client_enter (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="responsibilitychain6.springweb.Client_enter" />
+      <module name="10-DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="responsibilitychain6.springweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client_enter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer5.Client_enter" />
+      <module name="10-DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client_enter (4)" />
+        <item itemvalue="Application.Client_enter (3)" />
         <item itemvalue="Application.Client_enter (3)" />
         <item itemvalue="Application.Client_enter (2)" />
         <item itemvalue="Application.Client_enter (1)" />
-        <item itemvalue="Application.Client_enter" />
-        <item itemvalue="Application.Test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +192,23 @@
       <workItem from="1666753147001" duration="15930000" />
       <workItem from="1666838639908" duration="50000" />
       <workItem from="1666839820748" duration="1691000" />
-      <workItem from="1666860557523" duration="12974000" />
+      <workItem from="1666860557523" duration="13717000" />
+      <workItem from="1667185151410" duration="18205000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/10-DesignMode/src/responsibilitychain6/springweb/MyFilter1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

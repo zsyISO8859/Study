@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,7 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/SpringBoot/src/main/java/com/atguigu" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMVC1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot/src/main/resources/static/error" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,24 +78,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEAPro\Study\SpringBoot\src\main\resources\static\error" />
+      <recent name="C:\IDEAPro\Study\SpringBoot\src\main\resources\templates\error" />
+      <recent name="C:\IDEAPro\Study\SpringBoot\src\main\resources" />
       <recent name="C:\IDEAPro\Study\10-DesignMode\src\adapter\object" />
       <recent name="C:\IDEAPro\Study\10-DesignMode\src\proxy3\cglib\lib" />
-      <recent name="C:\IDEAPro\Study\09-JVM" />
-      <recent name="C:\IDEAPro\Study\09-JVM\src" />
-      <recent name="C:\IDEAPro\Study\08-FaceObject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IDEAPro\Study\SpringBoot\src\main\resources\templates\error" />
       <recent name="C:\IDEAPro\Study\Servlet-11\src\main\java\com\atguigu\javaweb\review" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atguigu.boot" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.boot" />
       <recent name="adapter.interfaceadapter" />
       <recent name="responsibilitychain6.springweb" />
       <recent name="responsibilitychain6" />
       <recent name="observer" />
-      <recent name="template4" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -134,6 +135,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,7 +306,11 @@
       <workItem from="1667441138798" duration="4508000" />
       <workItem from="1667467708935" duration="43000" />
       <workItem from="1667467761771" duration="810000" />
-      <workItem from="1667468688664" duration="2147000" />
+      <workItem from="1667468688664" duration="11000000" />
+      <workItem from="1667547393235" duration="3539000" />
+      <workItem from="1667553974035" duration="764000" />
+      <workItem from="1667554758176" duration="1410000" />
+      <workItem from="1667784340785" duration="26613000" />
     </task>
     <servers />
   </component>
@@ -304,10 +320,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/10-DesignMode/src/responsibilitychain6/springweb/MyFilter1.java</url>
           <line>12</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../soft/mavenRepository/org/springframework/boot/spring-boot-autoconfigure/2.7.4/spring-boot-autoconfigure-2.7.4-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBoot/src/main/java/com/atguigu/boot/exception/CustomerHandlerExceptionResolver.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

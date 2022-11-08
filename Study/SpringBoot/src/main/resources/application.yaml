@@ -1,0 +1,8 @@
+mycar:
+  name: axd
+  price: 123
+spring:
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 60MB

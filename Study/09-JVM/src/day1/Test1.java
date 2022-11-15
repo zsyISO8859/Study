@@ -7,6 +7,7 @@ package day1; /**
 import org.junit.Test;
 
 import java.lang.annotation.Retention;
+import java.util.ArrayList;
 
 /**
  * JVM ：java程序（字节码）的运行环境
@@ -60,6 +61,7 @@ public class Test1 {
         System.gc();
         System.out.println(3);
         Thread.sleep(10000);
+
     }
 }
 

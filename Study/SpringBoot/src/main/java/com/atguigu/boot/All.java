@@ -13,6 +13,10 @@ package com.atguigu.boot;
  *      3、自动配置，简化开发，也支持修改；
  *      4、使用JavaConfig有助于避免使用XML；
  *      5、依赖管理，避免大量的Maven导入和各种版本冲突。
+ *      6、方便测试，自动集成了junit5，以前还需要写一堆的注解比如@runwith加载springapplication现在很方便 【具体看测试目录】
+ *      7、每一个微服务在云上部署以后，需要对其监控、追踪、审计、控制，springboot抽取了actuator(IQ揣特)场景，引用就可以获得生产级别的监控审计等功能。
+ *             - 最常用的Endpoint端点  ● Health：监控状况  ● Metrics：运行时指标  ●Loggers：日志记录
+ *             - 如何定制endpoint、Metrics、info、Health？
  *
  * springboot2有什么新功能？
  *      1.@Configuration的Full和Lite模式
@@ -27,6 +31,15 @@ package com.atguigu.boot;
  *      方法二：在bean中加入1个注解@ConfigurationProperties(prefix = "mycar")再在javaConfig配置文件中
  *                加入@EnableConfigurationProperties(Car.class)注解，最后在javaBean中使用@Autowired注入
  *      *方法2适用于Bean用的是第三方的Bean，因为第三方Bean类可能没有@Component注解，我们无法修改源码，所以只能用第二种方法。
+ *
+ * springboot如何进行环境切换？
+ *   激活指定prod环境有2种方法：
+ *      配置文件激活：在默认配置文件application.yaml中配置 spring.profiles.active=prod
+ *      命令行激活： java -jar xxx.jar --spring.profiles.active=prod
+ *
+ *   *修改配置文件的任意值，命令行优先。
+ *   *指定环境配置文件 application-{env}.yaml
+ *   *同名配置项，profile配置优先，即{env}优先
  */
 public class All {
 }

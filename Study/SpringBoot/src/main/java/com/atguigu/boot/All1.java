@@ -18,6 +18,17 @@ package com.atguigu.boot;
  * @RequestAttribute("msg") 作用：
  *      获取request域中存储的数据，一般用于请求转发的场景。  [方法参数]
  *
+ *
+ * junit5的使用：
+ *     简单断言 【详情看test类】
+ *     断言Assertions(不满足于某个断言会使得测试失败。)
+ *     前置条件assumptions
+ *     嵌套测试@Nested(内层可以驱动外层测试  反之不可以)
+ *     *参数化测试@ParameterizedTest(可以使用用不同的参数多次运行测试)
+ *          @ValueSource 支持八大基础类以及String类型, Class类型
+ *          @NullSource 表示为参数化测试提供一个null的入参
+ *          @MethodSource 指定方法的返回值作为参数化测试入参(注意方法返回需要是一个流)
+ *
  */
 public class All1 {
 }
